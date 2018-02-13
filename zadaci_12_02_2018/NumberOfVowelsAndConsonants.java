@@ -1,7 +1,7 @@
 package zadaci_12_02_2018;
+// Pretpostavimo da su slova A, E, I, O i U samoglasnici. (Smjela pretpostavka, znam) Napisati program koji pita korisnika da unese string // te mu ispište broj samoglasnika i suglasnika u datom stringu.
 
-import java.util.List;
-import java.util.Arrays;
+
 import java.util.Scanner;
 
 public class NumberOfVowelsAndConsonants {

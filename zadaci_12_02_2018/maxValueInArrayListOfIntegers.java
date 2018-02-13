@@ -1,4 +1,6 @@
 package zadaci_12_02_2018;
+/* Napisati sljedeæu metodu koja vraæa najveæu vrijednosti u ArrayListu Integera. Metoda vraæa null ukoliko je lista null iil ukoliko lista sadrži 0 elemenata.
+public static Integer max(ArrayList<Integer> list) */
 
 import java.util.ArrayList;
 
@@ -28,7 +30,7 @@ public class maxValueInArrayListOfIntegers {
 		ArrayList<Integer> list= new ArrayList<Integer>();
 		
 		int rand;
-		int n=0; // broj elemenata liste
+		int n=15; // broj elemenata liste
 		
 		System.out.println("Lista " + n + " slucajnih brojeva:");
 		for (int i=1; i<=n; i++){
