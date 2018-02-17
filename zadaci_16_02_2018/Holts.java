@@ -1,15 +1,15 @@
 package zadaci_16_02_2018;
-/* Zamislite da ste u naslijee dobili neku parcelu, predstavljenu kao matrica ispunjena sa karaterima x i o, 
- * na svakoj poziciji na kojoj je x znaËi da na tom mjestu raste drvo,olakötajte posao voji i napiöi te program 
- * koji ispisuje koliko imate öumaraka na vaöoj parceli, za dio parcele koji nazivamo öumarkom mora da sadrûi 
- * najmanje 3-4 ulanËana 'x' karaktera. Nakon pokretanja programa od korisnika moûete traûiti da unese veliËinu 
- * parcele a program ispisuje generisanu "parcelu" matricu i ispisuje koliko öumaraka se nalazi na toj parceli
+/* Zamislite da ste u naslije√∞e dobili neku parcelu, predstavljenu kao matrica ispunjena sa karaterima x i o, 
+ * na svakoj poziciji na kojoj je x zna√®i da na tom mjestu raste drvo,olak≈°tajte posao voji i napi≈°i te program 
+ * koji ispisuje koliko imate ≈°umaraka na va≈°oj parceli, za dio parcele koji nazivamo ≈°umarkom mora da sadr≈æi 
+ * najmanje 3-4 ulan√®ana 'x' karaktera. Nakon pokretanja programa od korisnika mo≈æete tra≈æiti da unese veli√®inu 
+ * parcele a program ispisuje generisanu "parcelu" matricu i ispisuje koliko ≈°umaraka se nalazi na toj parceli
  */
 
 public class Holts {
 
 	public static void main(String[] args) {
-		int n=8, m=13;
+		int n=8, m=13; // dimenzije parcele = matrice koja predstavlja parcelu
 		char[][] parcela = new char[n][m];
 		parcela = inicajaliziraj2DNiz(n, m); // inicijalizacija parcele
 		System.out.println("Parcela je zadana slucajno generisanom matricom:");
@@ -34,7 +34,7 @@ public class Holts {
 			}
 		}
 		
-		System.out.println("Ako bi svako drvo öumarka numerisali njegovim rednim brojem, parcela bi izgledala:");
+		System.out.println("Ako bi svako drvo ≈°umarka numerisali njegovim rednim brojem, parcela bi izgledala:");
 		ispis2Dniza(parcela);
 		System.out.println();
 		System.out.println("Na parceli su "+ (holtNum) + " sumarka.");
