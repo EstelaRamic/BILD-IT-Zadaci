@@ -16,7 +16,7 @@ public class Holts {
 		ispis2Dniza(parcela);
 		System.out.println();
 
-		// prirastaji za posjecivanje polja: gore, desno, dolje, lijevo
+		// prirastaji za posjecivanje polja: gore, gore-desno, desno, dolje-desno, dolje, dolje-lijevo, lijevo, gore-lijevo
 		int[] prX = { -1, -1, 0, 1, 1, 1, 0, -1 };
 		int[] prY = { 0, 1, 1, 1, 0, -1, -1, -1 };
 	
