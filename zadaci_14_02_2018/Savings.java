@@ -1,5 +1,6 @@
 package zadaci_14_02_2018;
-/*/*  Pretpostavimo da uplatimo $100 svaki mjesec na štedni raèun koji ima godišnju interesnu stopu od 5%. Mjeseèna interesna stopa je 
+/*/*  Pretpostavimo da uplatimo $100 svaki mjesec na štedni raèun koji ima godišnju interesnu stopu od 5%. 
+ * Mjeseèna interesna stopa je 
  * stoga 0.05 / 12 = 0.00417. Nakon prvog mjeseca vrijednost na raèunu postaje 100 * (1 + 0.00417) = 100.417. Nakon drugog mjeseca, 
  * vrijednost na raèunu postaje (100 + 100.417) * (1 + 0.00417) = 201.252. Nakon treæeg mjeseca, vrijednost na raèunu postaje 
  * (100 + 201.252) * (1 + 0.00417) = 302.507 i tako dalje. Napisati program koji pita korisnika da unese mjeseèni iznos štednje 
