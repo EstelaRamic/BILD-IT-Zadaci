@@ -51,7 +51,12 @@ public class ReadMoreSenteces {
 		while ((line = reader.readLine()) != null) {
 			
 			if (line.length() > 55) {
-				line = line.substring(0, 40) + "... <Read More>";
+				int index = line.indexOf(" ", 35);
+				if (index>35){
+				line = line.substring(0, index) + "... <Read More>";
+				} else{
+					line = line.substring(0, 40) + "... <Read More>";
+				}
 			}
 			System.out.println(line);
 		}
